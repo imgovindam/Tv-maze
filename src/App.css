@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* background-color: aquamarine; */
+}
+
+.A {
+  background-image: url(https://www.newsviewsnetwork.com/wp-content/uploads/2012-movie-collage31-scaled.jpg);
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+
+.B {
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+
+  font-size: 24px;
+
+  background-color: #00000080;
+
+  padding: 10px 20px;
+
+}
+
+.C {
+  background-image: url(https://www.media.hw-static.com/media/2022/01/2022-Movie-Posters-web_cropped.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 400px;
+  position: relative;
+
+}
